@@ -1,0 +1,998 @@
+@media all and (max-width: 800px)
+{
+
+	header
+	{
+		margin:auto;
+		padding:center;
+		width:70%;
+		text-align:center;
+		background-color:rgb(70,160,255);
+	}
+	nav
+	{
+		text-align: left;	
+	}
+	nav ul
+	{
+		list-style-type: disc;
+	}
+	 
+	nav li
+	{
+		display: block;
+
+	}
+	nav a
+	{
+		font-size: 1.3em;
+		color: white;
+		text-decoration: none;
+	}
+	nav a:hover
+	{
+		color: black;
+		background-color:white;
+		text-shadow: 3px 2px 6px blue;
+	}
+	.ancrea
+	{
+		background-color:lightblue;
+	}
+	body
+	{
+		background-image: url("img/fond111100.jpg");
+		background-attachment:fixed;
+		font-family: Baskerville Old Face,, Arial, sans-serif;
+		width:auto;
+		margin:auto;
+		font-size:15px;
+		cursor:url("img/spo49.cur"), pointeur; /*curseur en volant*/
+		background-position:center;
+	
+	}
+	.banniere
+	{
+		width:100%;
+	}
+	
+	h1
+	{
+		color: blue; /* Le titre en bleu */
+		text-align:center;
+	}
+
+	h2
+	{
+		display: inline-block;
+		background-color:lightblue;
+		opacity: 0.7;
+		border-bottom: 1px ridge blue;
+		border-radius: 0px 0px 0px 100px; /*arrondi*/
+		box-shadow: -1px 1px 4px blue ; /*ombres*/
+		padding-top: 3px; /* Marge intérieure */
+		padding-left: 10px; /* Marge intérieure */
+		padding-right: 25px; /* Marge intérieure */
+		padding-bottom: 3px; /* Marge intérieure */
+		margin-top:0px;
+		float:right;
+		width:40%;
+		text-align:right;
+	}
+	section h3
+	{
+		text-decoration:underline;
+		color:black;
+		font-size:12px;
+	}
+	h5
+	{
+		font-size:6px;
+		color:grey;
+	}
+	
+	
+	
+	section
+	{
+		width:70%;
+		margin:auto; 
+		border: 1px solid rgb(164,200,250);
+		background-color:white;
+		opacity:0.95;
+		overflow:auto;
+	}
+	article
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px ridge lightblue;
+		border-radius: 9px; /*arrondi*/
+		box-shadow: 3px 3px 15px blue ; /*ombres*/
+		padding-top: 3px; /* Marge intérieure */
+		padding-left: 10px; /* Marge intérieure */
+		padding-right: 10px; /* Marge intérieure */
+		padding-bottom: 3px; /* Marge intérieure */
+		margin: 27px; /* Marge extérieure */
+		overflow:auto;
+	}
+
+	.important
+	{
+		color:red;
+		padding:10px;
+		border: 1px ridge red;
+		width:37%;
+	}
+	
+	.liste
+	{
+		padding-left: 25px;
+		text-shadow: 3px 3px 2px white;
+		width:20%;
+		margin-left:250px;
+		color:lightblue;
+		text-align:left;
+	}
+	.liste2
+	{
+		padding-left: 25px;
+		text-shadow: 3px 3px 2px white;
+		width:20%;
+		margin-left:550px;
+		margin-top:-150px;
+		color:lightblue;
+		text-align:left;
+	}
+
+	.competimg
+	{
+		display: inline-block;
+		float:right;
+		width:16%;
+	}
+
+	a:hover
+	{
+		border: 2px dotted white;
+		text-shadow: 2px 2px 10px green;
+	}
+	a
+	{
+		color:blue;
+		text-decoration:none;
+	}
+
+	.prec
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		border-radius: 100px 0px 0px 100px; /*arrondi*/
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		float:left;
+		font-weight:bold;
+	}
+	.prec:hover
+	{
+		background-color:black;
+		color:white;
+	}
+	.suiv
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		border-radius: 0px 100px 100px 0px; /*arrondi*/
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		float:right;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.suiv:hover
+	{
+		background-color:black;
+		color:white;
+	}
+	.pgAncre
+	{
+		background-color:black;
+		color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.pg
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.pg:hover
+	{
+		background-color:black;
+		color:white;
+	}
+
+	footer
+	{
+		width:70%;
+		margin:auto; 
+		text-align:center;
+		color:black;
+		background-color: white ;
+	}
+
+
+	th /*en-tête*/
+	{
+		
+		border: 2px solid black;
+		background-image: url("img/fond111.jpg");
+		color:white;
+		font-size:20px;
+		
+	}
+	td /* Toutes les cellules des tableaux... */
+	{
+		border-top: 2px solid white;
+		border-right: 1px solid white;
+		background-image: url("img/fond1.jpg");
+		color:rgb(0,0,80);
+		padding:5px;
+	}
+	tr
+	{
+		background-image: url("img/4.jpg");
+	}
+	.presi{
+		color:blue;
+	}
+	tr td:hover
+	{
+		background:white;
+	}
+	table
+	{
+		font-weight:bold;
+		font-size:18px;
+		border-collapse: collapse;
+		border: 2px solid white;
+		margin:30px;
+		padding:10px;
+		width:95%;
+		text-align:center;
+		overflow:auto;
+	}
+	
+	
+	
+	.calender td
+	{
+		border-bottom: 4px solid white;
+		border-right: 1px solid lightblue;
+		background-image: url("img/fond1.jpg");
+		color:rgb(0,0,80);
+		padding:20px;
+		padding-top:35px;
+		padding-bottom:35px;
+	}
+	.calender .num
+	{
+		background:lightblue;
+		color:black;
+		border-left:2px solid black;
+	}
+	.calender .grise
+	{
+		background:grey;
+		color:white;
+		
+	}
+	.calender
+	{
+		border: 2px solid black;
+		width:50%
+	}
+	
+	.album
+	{
+		width:23%;
+		margin:auto;
+		border:7px ridge white;
+	}
+}
+@media all and (min-width:800px) and (max-width: 1400px)
+{
+	body
+	{
+		background-image: url("img/fond111100.jpg");
+		background-attachment:fixed;
+		font-family: Baskerville Old Face, Arial, sans-serif;
+		width:auto;
+		margin:auto;
+		font-size:14px;
+		cursor:url("img/spo49.cur"), pointeur; /*curseur en volant*/
+	}
+
+	.banniere
+	{
+		width:100%;
+	}
+	header
+	{
+		margin:auto;
+		width:70%;
+		font-size:10px;
+		text-align:center;
+		background-color:rgb(70,160,255);
+	}
+	nav
+	{
+		width:100%;
+		list-style-type: none;
+		display: inline-block;
+		text-align: center;	
+	}
+	nav ul
+	{
+		list-style-type: disc;
+		width:100%;
+	}
+	 
+	nav li
+	{
+		display: inline-block;
+
+	}
+	nav a
+	{
+		font-size: 1.3em;
+		color: 	white;
+		padding: 13px;
+		text-decoration: none;
+	}
+	nav a:hover
+	{
+		color: black;
+		padding: 10px;
+		background-color:white;
+		text-shadow: 3px 2px 6px blue;
+	}
+	.ancre
+	{
+		display: inline-block;
+		float:left;
+	}
+	.ancrea
+	{
+		background-color:lightblue;
+	}
+
+
+	h1
+	{
+		color: blue; /* Le titre en bleu */
+		text-align:center;
+	}
+
+	h2
+	{
+		display: inline-block;
+		background-color:lightblue;
+		opacity: 0.7;
+		border-bottom: 1px ridge blue;
+		border-radius: 0px 0px 0px 100px; /*arrondi*/
+		box-shadow: -1px 1px 4px blue ; /*ombres*/
+		padding-top: 3px; /* Marge intérieure */
+		padding-left: 10px; /* Marge intérieure */
+		padding-right: 25px; /* Marge intérieure */
+		padding-bottom: 3px; /* Marge intérieure */
+		margin-top:0px;
+		float:right;
+		width:40%;
+		text-align:right;
+	}
+	section h3
+	{
+		text-decoration:underline;
+		text-transform:uppercase;
+		color:black;
+		font-size:14px;
+	}
+	h5
+	{
+		font-size:10px;
+		color:grey;
+	}
+
+		section
+	{
+		width:70%;
+		margin:auto; 
+		border: 1px solid rgb(164,200,250);
+		background-color:white;
+		opacity:0.90;
+		overflow:auto;
+	}
+	article
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px ridge lightblue;
+		border-radius: 9px; /*arrondi*/
+		box-shadow: 3px 3px 15px blue ; /*ombres*/
+		padding-top: 3px; /* Marge intérieure */
+		padding-left: 10px; /* Marge intérieure */
+		padding-right: 10px; /* Marge intérieure */
+		padding-bottom: 3px; /* Marge intérieure */
+		margin: 27px; /* Marge extérieure */
+		overflow:auto;
+	}
+
+	.important
+	{
+		color:red;
+		padding:10px;
+		border: 1px ridge red;
+		width:37%;
+	}
+	
+	.liste
+	{
+		padding-left: 25px;
+		text-shadow: 3px 3px 2px white;
+		width:20%;
+		margin-left:250px;
+		color:lightblue;
+		text-align:left;
+	}
+	.liste2
+	{
+		padding-left: 25px;
+		text-shadow: 3px 3px 2px white;
+		width:20%;
+		margin-left:550px;
+		margin-top:-150px;
+		color:lightblue;
+		text-align:left;
+	}
+
+	.competimg
+	{
+		display: inline-block;
+		float:right;
+		width:16%;
+	}
+
+	a:hover
+	{
+		border: 2px dotted white;
+		text-shadow: 2px 2px 10px green;
+	}
+	a
+	{
+		color:blue;
+		text-decoration:none;
+	}
+
+	.prec
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		border-radius: 100px 0px 0px 100px; /*arrondi*/
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		float:left;
+		font-weight:bold;
+	}
+	.prec:hover
+	{
+		background-color:black;
+		color:white;
+	}
+	.suiv
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		border-radius: 0px 100px 100px 0px; /*arrondi*/
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		float:right;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.suiv:hover
+	{
+		background-color:black;
+		color:white;
+	}
+	.pgAncre
+	{
+		background-color:black;
+		color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.pg
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.pg:hover
+	{
+		background-color:black;
+		color:white;
+	}
+
+	footer
+	{
+		width:70%;
+		margin:auto; 
+		text-align:center;
+		color:black;
+		background-color: white ;
+	}
+
+
+	th /*en-tête*/
+	{
+		
+		border: 2px solid black;
+		background-image: url("img/fond111.jpg");
+		color:white;
+		font-size:20px;
+		
+	}
+	td /* Toutes les cellules des tableaux... */
+	{
+		border-top: 2px solid white;
+		border-right: 1px solid white;
+		background-image: url("img/fond1.jpg");
+		color:rgb(0,0,80);
+		padding:5px;
+	}
+	tr
+	{
+		background-image: url("img/4.jpg");
+	}
+	.presi{
+		color:blue;
+	}
+	tr td:hover
+	{
+		background:white;
+	}
+	table
+	{
+		font-weight:bold;
+		font-size:18px;
+		border-collapse: collapse;
+		border: 2px solid white;
+		margin:30px;
+		padding:10px;
+		width:95%;
+		text-align:center;
+		overflow:auto;
+	}
+	
+	
+	.calender td
+	{
+		border-bottom: 4px solid white;
+		border-right: 1px solid lightblue;
+		background-image: url("img/fond1.jpg");
+		color:rgb(0,0,80);
+		padding:20px;
+		padding-top:35px;
+		padding-bottom:35px;
+	}
+	.calender .num
+	{
+		background:lightblue;
+		color:black;
+		border-left:2px solid black;
+	}
+	.calender .grise
+	{
+		background:grey;
+		color:white;
+		
+	}
+	.calender
+	{
+		border: 2px solid black;
+		width:70%
+	}
+	
+	.album
+	{
+		width:23%;
+		margin:auto;
+		border:7px ridge white;
+	}
+}
+
+@media all and (min-width: 1400px)
+{
+	body
+	{
+		background-image: url("img/fond111100.jpg");
+		background-color: rgb(80,90,170);
+		background-attachment:fixed;
+		font-family: Baskerville Old Face, Arial, sans-serif;
+		width:auto;
+		margin:auto;
+		font-size:17px;
+		cursor:url("img/spo49.cur"), pointeur; /*curseur en volant*/
+		background-position:center;
+	}
+
+	.banniere
+	{
+		width:100%;
+	}
+	header
+	{
+		margin:auto;
+		width:70%;
+		text-align:center;
+		background-color:rgb(70,160,255);
+	}
+	nav
+	{
+		width:100%;
+		text-transform: uppercase;
+		font-size:auto;
+		list-style-type: none;
+		display: inline-block;
+		text-align: center;	
+	}
+	nav ul
+	{
+		list-style-type: disc;
+		width:100%;
+	}
+	 
+	nav li
+	{
+		display: inline-block;
+	}
+	nav a
+	{
+		font-size: 1.3em;
+		color: 	white;
+		padding: 20px;
+		text-decoration: none;
+	}
+	nav a:hover
+	{
+		color: black;
+		padding: 18px;
+		background-color:white;
+		text-shadow: 3px 2px 6px blue;
+	}
+	.ancre
+	{
+		display: inline-block;
+		float:left;
+	}
+	.ancrea
+	{
+		background-color:lightblue;
+	}
+
+
+
+	h1
+	{
+		color: blue; /* Le titre en bleu */
+		text-align:center;
+	}
+
+	h2
+	{
+		display: inline-block;
+		background-color:lightblue;
+		opacity: 0.7;
+		border-bottom: 1px ridge blue;
+		border-radius: 0px 0px 0px 100px; /*arrondi*/
+		box-shadow: -1px 1px 4px blue ; /*ombres*/
+		padding-top: 3px; /* Marge intérieure */
+		padding-left: 10px; /* Marge intérieure */
+		padding-right: 25px; /* Marge intérieure */
+		padding-bottom: 3px; /* Marge intérieure */
+		margin-top:0px;
+		float:right;
+		width:40%;
+		text-align:right;
+	}
+	section h3
+	{
+		text-decoration:underline;
+		text-transform:uppercase;
+		color:black;
+		font-size:19px;
+	}
+	h5
+	{
+		font-size:13px;
+		color:grey;
+	}
+
+	section
+	{
+		width:70%;
+		margin:auto; 
+		border: 1px solid rgb(164,200,250);
+		background-color:white;
+		opacity:0.92;
+		overflow:auto;
+	}
+	article
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px ridge lightblue;
+		border-radius: 9px; /*arrondi*/
+		box-shadow: 3px 3px 15px blue ; /*ombres*/
+		padding-top: 3px; /* Marge intérieure */
+		padding-left: 10px; /* Marge intérieure */
+		padding-right: 10px; /* Marge intérieure */
+		padding-bottom: 3px; /* Marge intérieure */
+		margin: 27px; /* Marge extérieure */
+		overflow:auto;
+	}
+
+	.important
+	{
+		color:red;
+		padding:10px;
+		border: 2px ridge red;
+		width:37%;
+	}
+	.liste
+	{
+		padding-left: 25px;
+		text-shadow: 3px 3px 2px white;
+		width:20%;
+		margin-left:250px;
+		color:lightblue;
+		text-align:left;
+	}
+	.liste2
+	{
+		padding-left: 25px;
+		text-shadow: 3px 3px 2px white;
+		width:20%;
+		margin-left:550px;
+		margin-top:-137px;
+		color:lightblue;
+		text-align:left;
+	}
+
+	.competimg
+	{
+		display: inline-block;
+		float:right;
+		margin:6px;
+		width:16%;
+	}
+
+	a:hover
+	{
+		border: 2px dotted white;
+		text-shadow: 2px 2px 10px green;
+	}
+	a
+	{
+		color:blue;
+		text-decoration:none;
+	}
+
+	.prec
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		border-radius: 100px 0px 0px 100px; /*arrondi*/
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		float:left;
+		font-weight:bold;
+	}
+	.prec:hover
+	{
+		background-color:black;
+		color:white;
+	}
+	.suiv
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		border-radius: 0px 100px 100px 0px; /*arrondi*/
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		float:right;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.suiv:hover
+	{
+		background-color:black;
+		color:white;
+	}
+	.pgAncre
+	{
+		background-color:black;
+		color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.pg
+	{
+		background-color:lightblue;
+		opacity: 0.9;
+		border: 1px solid blue;
+		padding: 10px; /* Marge intérieure */
+		margin: 10px; /* Marge extérieure */
+		width:auto;
+		display: inline-block;
+		font-weight:bold;
+	}
+	.pg:hover
+	{
+		background-color:black;
+		color:white;
+	}
+
+	footer
+	{
+		width:70%;
+		margin:auto; 
+		text-align:center;
+		color:black;
+		background-color: white ;
+	}
+
+
+	th /*en-tête*/
+	{
+		
+		border: 2px solid black;
+		background-image: url("img/fond111.jpg");
+		color:white;
+		font-size:18px;
+		
+	}
+	td /* Toutes les cellules des tableaux... */
+	{
+		border-top: 2px solid white;
+		border-right: 1px solid white;
+		background-image: url("img/fond1.jpg");
+		color:rgb(0,0,80);
+		padding:6px;
+	}
+	tr
+	{
+		background-image: url("img/4.jpg");
+	}
+	.presi
+	{
+		color:blue;
+	}
+	tr td:hover
+	{
+		background:white;
+	}
+	table
+	{
+		font-weight:bold;
+		font-size:15px;
+		border-collapse: collapse;
+		border: 2px solid white;
+		margin:10px;
+		padding:11px;
+		width:95%;
+		text-align:center;
+		overflow:auto;
+	}
+	
+	
+	.calender td
+	{
+		border-bottom: 4px solid white;
+		border-right: 1px solid lightblue;
+		background-image: url("img/fond1.jpg");
+		color:rgb(0,0,80);
+		padding:20px;
+		padding-top:35px;
+		padding-bottom:35px;
+	}
+	.calender .num
+	{
+		background:lightblue;
+		color:black;
+		border-left:2px solid black;
+	}
+	.calender .grise
+	{
+		background:grey;
+		color:white;
+		
+	}
+	.calender
+	{
+		border: 2px solid black;
+		width:90%;
+		font-size:10px;
+	}
+	
+	.album
+	{
+		width:23%;
+		margin:auto;
+		border:7px ridge white;
+	}
+	
+	.logo
+	{
+		display: inline-block;
+		float:right;
+		position: absolute;
+		top: 21em;
+		right: 18em;
+		width:8%;
+	}
+	.logoclub
+	{
+		display: inline-block;
+		float:right;
+		margin:0px;
+		width:12%;
+	}
+	.adr
+	{
+		float:right;
+		position: absolute;
+		top: 21em;
+		right: 28em;
+		border:4px ridge white;
+	}
+}

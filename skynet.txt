@@ -1,0 +1,3 @@
+users.skynet.be comme nom de serveur,
+fb058494 comme nom d'utilisateur.
+ftp://fb058494:xvrq3ck9@users.skynet.be
